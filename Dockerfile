@@ -21,7 +21,7 @@ CMD ["python", "app/app.py"]
 #CMD ["jupyter", "notebook", "--port=8888", "--notebook-dir=\"/app\"", "--no-browser", "--ip=0.0.0.0", "--allow-root"]
 # docker build . -t pybring
 
-#To run jypyter notebook:
+#To run jupyter notebook:
 # jupyter notebook --port=8888 --notebook-dir=/app"--no-browser --ip=0.0.0.0 --allow-root
 # docker run -p 8888:8889 pybring
 
